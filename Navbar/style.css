@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    height: 60px;
+    border: 2px solid rgb(234, 231, 231);
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px rgb(220, 142, 203);
+}
+
+header{
+    margin: auto;
+    position: relative;
+    top: 15px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    gap: 5px;
+}
+
+.right ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.right ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.right ul li a:hover{
+    /* font-size: 1.3rem; */
+    color: rgb(102, 74, 99);
+}
+
+.imag img{
+    width: 50px;
+}
+
