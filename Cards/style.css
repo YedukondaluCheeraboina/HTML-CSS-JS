@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 20vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(33, 32, 32);
+    border-radius: 10px;
+}
+
+img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid balck;
+    border-radius: 50%;
+}
+
+.name{
+    text-align: center;
+    position: relative;
+    top: -4px;
+}
+
+h2{
+    color: white;
+}
+
+.name p{
+    color: yellow;
+    font-size: 0.9rem;
+}
+
+.role{
+    color: white;
+    width: 80%;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.links{
+    text-align: center;
+}
+
+button{
+    width: 80%;
+    height: 35px;
+    margin: 5px 10px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: gray;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
